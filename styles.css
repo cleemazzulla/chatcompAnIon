@@ -73,7 +73,7 @@ main {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #1a75ff; /* Dark blue heading color */
+    color: #fff; /* Dark blue heading color */
 }
 
 .hero p {
