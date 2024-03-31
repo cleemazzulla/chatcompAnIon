@@ -1,3 +1,4 @@
+/* Add your CSS styles here */
 /* Reset default browser styles */
 body, h1, h2, h3, p, ul, li, nav {
     margin: 0;
@@ -10,6 +11,7 @@ body {
     font-family: Montserrat, sans-serif;
     background-color: #000f3c; /* Dark blue background */
     color: #fff; /* White text color */
+    text-align: center; /* Center align the content */
 }
 
 /* Header styles */
@@ -59,15 +61,12 @@ main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
+    text-align: center; /* Center align the content */
 }
 
 .hero {
     text-align: center;
     padding: 100px 0;
-}
-
-.hero .logo {
-    margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
 .hero h1 {
@@ -94,40 +93,4 @@ main {
 
 .btn:hover {
     background-color: #1a75ff; /* Dark blue button background on hover */
-}
-
-/* Team section styles */
-.team-section {
-    text-align: center;
-}
-
-.team-members {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Allow the team members to wrap on smaller screens */
-    margin-top: 20px;
-}
-
-.team-member {
-    margin: 0 10px; /* Adjust spacing between team members */
-}
-
-.team-member img {
-    border-radius: 50%; /* Make the image circular */
-    width: 150px; /* Adjust image size */
-    height: 150px; /* Adjust image size */
-    display: block; /* Ensure proper display of border-radius */
-    object-fit: cover; /* Maintain aspect ratio */
-}
-
-.team-member img:hover {
-    opacity: 0.8; /* Dim the image slightly on hover (optional) */
-}
-
-.title {
-    color: #3e66ff; /* Color for the letter A */
-}
-
-.title span:last-child {
-    color: #3e66ff; /* Color for the letter I */
 }
