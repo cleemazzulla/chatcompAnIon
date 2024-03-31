@@ -124,11 +124,10 @@ main {
     opacity: 0.8; /* Dim the image slightly on hover (optional) */
 }
 
-/* Define custom accent color and secondary color */
-.accent-color {
-    color: #ffffff; /* Define the accent color */
+.title {
+    color: #3e66ff; /* Color for the letter A */
 }
 
-.secondary-color {
-    color: #3e66ff; /* Define the secondary color */
+.title span:last-child {
+    color: #3e66ff; /* Color for the letter I */
 }
