@@ -1,3 +1,4 @@
+/* Add your CSS styles here */
 /* Reset default browser styles */
 body, h1, h2, h3, p, ul, li, nav {
     margin: 0;
@@ -124,6 +125,7 @@ main {
     width: 150px; /* Adjust image size */
     height: 150px; /* Adjust image size */
     object-fit: cover; /* Maintain aspect ratio */
+    flex: 0 0 auto; /* Ensures images don't grow or shrink */
 }
 
 .team-member img:hover {
