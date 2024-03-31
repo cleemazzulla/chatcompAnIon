@@ -1,70 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Companion</title>
     <link rel="stylesheet" href="styles.css">
     <!-- Add any additional stylesheets or scripts here -->
+    <style>
+        /* Custom CSS for full screen header and main sections */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+        header {
+            height: 100vh; /* Set header height to full viewport height */
+            background-color: #1a75ff; /* Dark blue header background */
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        main {
+            height: 100vh; /* Set main section height to full viewport height */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        /* Additional styles for the header and main content */
+        .logo img {
+            max-width: 300px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+    </style>
 </head>
-
 <body>
     <header>
-        <nav>
-            <div class="logo">
-                <img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Chat%20Companion%20Transparent%20Logo.png?raw=true" alt="Chat Companion Logo">
-            </div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Team</a></li>
-                <li><a href="#">Demo</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
-        </nav>
+        <div class="logo">
+            <img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Chat%20Companion%20Transparent%20Logo.png?raw=true" alt="Chat Companion Logo">
+        </div>
+        <h1>Welcome to Chat Companion</h1>
     </header>
 
     <main>
         <section class="hero">
-            <h1>Welcome to chat <span class="accent-color">comp</span><span class="secondary-color">A</span><span class="accent-color">n</span><span class="secondary-color">I</span><span class="accent-color">on</span></h1>
-    		<p style="font-size: 24px;">Empowering Parents to Stay Ahead</p>
+            <p style="font-size: 24px;">Empowering Parents to Stay Ahead</p>
             <p>Chat Companion is a project designed to help parents navigate the challenges of modern parenting. Our innovative tools and resources provide support and guidance every step of the way.</p>
             <a href="#team" class="btn">Meet the Team</a>
             <a href="#demo" class="btn">Watch Demo</a>
             <a href="#signup" class="btn">Sign Up for a Meeting</a>
-        </section>
-
-        <section id="team" class="team-section">
-            <h2>Meet the Team</h2>
-            <div class="team-members">
-                 <div class="team-member"><a href="https://www.linkedin.com/in/courtney-l-mazzulla/"><img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Courtney%20Headshot.jpg?raw=true" alt="Courtney Mazzulla"></a></div>
-                 <div class="team-member"><a href="https://www.linkedin.com/in/julianrippert/"><img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Julian%20Headshot.jpeg?raw=true" alt="Julian Rippert"></a></div>
-                 <div class="team-member"><a href="https://www.linkedin.com/in/karsynlee/"><img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Karsyn%20Headshot.jpeg?raw=true" alt="Karsyn Lee"></a></div>
-                 <div class="team-member"><a href="https://www.linkedin.com/in/sunnyshi"><img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Sunny%20Headshot.jpeg?raw=true" alt="Sunny Shin"></a></div>
-                 <div class="team-member"><a href="https://www.linkedin.com/in/raymond-tang-0807aa1/"><img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Raymond%20Headshot.jpeg?raw=true" alt="Raymond Tang"></a></div>
-                 <div class="team-member"><a href="https://www.linkedin.com/in/leongutierrez29/"><img src="https://github.com/cleemazzulla/chatcompAnIon/blob/main/Leon%20Headshot.jpeg?raw=true" alt="Leon Gutierrez"></a></div>
-            </div>
-        </section>
-
-        <section id="demo" class="demo-section">
-            <h2>Watch Demo</h2>
-            <div class="video-container">
-                <!-- Insert YouTube video embed code here -->
-            </div>
-        </section>
-
-        <section id="signup" class="signup-section">
-            <h2>Sign Up for a Meeting</h2>
-            <form action="#" method="POST">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit" class="btn">Submit</button>
-            </form>
         </section>
     </main>
 
