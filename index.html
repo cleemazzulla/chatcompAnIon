@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <!-- Add any additional stylesheets or scripts here -->
     <style>
-        /* Custom CSS for full screen header and main sections */
+        /* Custom CSS for fixed header and main sections */
         body, html {
             margin: 0;
             padding: 0;
@@ -15,16 +15,22 @@
             overflow-x: hidden; /* Hide horizontal scrollbar */
         }
         header {
-            height: 100vh; /* Set header height to full viewport height */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* Ensure header is above other content */
             background-color: #1a75ff; /* Dark blue header background */
             color: #fff;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            padding: 20px 0;
         }
         main {
-            height: 100vh; /* Set main section height to full viewport height */
+            margin-top: 100px; /* Adjust margin to accommodate fixed header */
+            height: calc(100% - 100px); /* Adjust main section height */
             display: flex;
             flex-direction: column;
             align-items: center;
