@@ -34,8 +34,8 @@ nav {
 }
 
 .logo img {
-    max-width: 90px; /* Adjust the maximum width of the logo */
-    height: 90px;
+    max-width: 100px; /* Adjust the maximum width of the logo */
+    height: 100px;
 }
 
 .nav-links {
