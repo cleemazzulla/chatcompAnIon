@@ -64,6 +64,10 @@ main {
     padding: 100px 0;
 }
 
+.hero .logo {
+    margin-bottom: 20px; /* Add space between the logo and the title */
+}
+
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -88,58 +92,4 @@ main {
 
 .btn:hover {
     background-color: #1a75ff; /* Dark blue button background on hover */
-}
-
-/* Team section styles */
-.team-section {
-    text-align: center;
-}
-
-.team-member {
-    display: inline-block;
-    margin-right: 20px; /* Adjust spacing between team members */
-}
-
-.team-member img {
-    border-radius: 50%; /* Make the image circular */
-    width: 100px; /* Adjust image size */
-    height: 100px; /* Adjust image size */
-    display: block; /* Ensure proper display of border-radius */
-    object-fit: cover; /* Maintain aspect ratio */
-}
-
-.team-member img:hover {
-    opacity: 0.8; /* Dim the image slightly on hover (optional) */
-}
-
-/* Footer styles */
-footer {
-    background-color: #1a75ff; /* Dark blue footer background */
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.social-icons {
-    list-style: none;
-    margin-top: 20px;
-}
-
-.social-icons li {
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.social-icons li:last-child {
-    margin-right: 0;
-}
-
-.social-icons li a img {
-    width: 30px;
-    height: auto;
 }
