@@ -79,7 +79,7 @@ main {
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;
-    color: #0052cc; /* Medium blue text color */
+    color: #fff; /* Medium blue text color */
 }
 
 .btn {
