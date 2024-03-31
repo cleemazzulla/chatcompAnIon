@@ -121,3 +121,12 @@ main {
 .team-member img:hover {
     opacity: 0.8; /* Dim the image slightly on hover (optional) */
 }
+
+.accent-color {
+    color: ##3e66ff; /* Define the accent color */
+}
+
+.secondary-color {
+    color: ##ffffff; /* Define the secondary color */
+}
+
