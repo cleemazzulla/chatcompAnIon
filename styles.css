@@ -42,6 +42,10 @@ nav {
     height: auto; /* Maintain aspect ratio */
 }
 
+.center-logo {
+    margin-bottom: 20px; /* Add space between the logo and the title */
+}
+
 .center-logo img {
     width: 300px; /* Adjust the width of the centered logo */
     height: auto; /* Maintain aspect ratio */
