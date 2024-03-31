@@ -84,6 +84,28 @@ main {
     background-color: #1a75ff; /* Dark blue button background on hover */
 }
 
+/* Team section styles */
+.team-section {
+    text-align: center;
+}
+
+.team-member {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between team members */
+}
+
+.team-member img {
+    border-radius: 50%; /* Make the image circular */
+    width: 100px; /* Adjust image size */
+    height: 100px; /* Adjust image size */
+    display: block; /* Ensure proper display of border-radius */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+.team-member img:hover {
+    opacity: 0.8; /* Dim the image slightly on hover (optional) */
+}
+
 /* Footer styles */
 footer {
     background-color: #1a75ff; /* Dark blue footer background */
