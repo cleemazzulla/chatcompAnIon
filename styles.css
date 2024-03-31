@@ -8,13 +8,13 @@ body, h1, h2, h3, p, ul, li, nav {
 /* Body styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f0f5ff; /* Light blue background */
     color: #333;
 }
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #1a75ff; /* Dark blue header background */
     color: #fff;
     padding: 20px 0;
 }
@@ -61,17 +61,19 @@ main {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    color: #1a75ff; /* Dark blue heading color */
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;
+    color: #0052cc; /* Medium blue text color */
 }
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
+    background-color: #0052cc; /* Medium blue button background */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -79,12 +81,12 @@ main {
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: #1a75ff; /* Dark blue button background on hover */
 }
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #1a75ff; /* Dark blue footer background */
     color: #fff;
     padding: 20px 0;
     text-align: center;
