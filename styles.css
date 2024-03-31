@@ -34,8 +34,10 @@ nav {
 }
 
 .logo img {
-    max-width: 100px; /* Adjust the maximum width of the logo */
-    height: 100px;
+    max-width: 300px; /* Adjust the maximum width of the logo */
+    height: auto; /* Let the height adjust proportionally */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 .nav-links {
