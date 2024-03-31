@@ -29,7 +29,13 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    display: flex;
+    align-items: left; /* Center vertically */
+}
+
+.logo img {
+    max-width: 100px; /* Adjust the maximum width of the logo */
+    height: auto;
 }
 
 .nav-links {
