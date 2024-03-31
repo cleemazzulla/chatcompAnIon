@@ -14,7 +14,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #1a75ff; /* Dark blue header background */
+    background-color: #0033cc; /* Dark blue header background */
     color: #fff;
     padding: 20px 0;
 }
@@ -34,8 +34,8 @@ nav {
 }
 
 .logo img {
-    max-width: 100px; /* Adjust the maximum width of the logo */
-    height: auto;
+    max-width: 75px; /* Adjust the maximum width of the logo */
+    height: 75px;
 }
 
 .nav-links {
