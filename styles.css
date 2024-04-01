@@ -75,7 +75,7 @@ main {
 
 .hero {
     text-align: center;
-    padding: 100px 0;
+    padding: 25px;
 }
 
 .hero h1 {
@@ -106,7 +106,7 @@ main {
 
 /* Team section styles */
 .team-section {
-    padding: 100px 0;
+    padding: 25px;
     text-align: center;
 }
 
@@ -135,13 +135,13 @@ main {
 }
 
 .technical-approach-section {
-    padding: 100px 0;
+    padding: 25px;
 }
 
 .demo-section {
-    padding: 100px 0;
+    padding: 25px;
 }
 
 .signup-section {
-    padding: 100px 0;
+    padding: 25px;
 }
