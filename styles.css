@@ -108,6 +108,7 @@ main {
 /* Team section styles */
 .team-section {
     text-align: center;
+    margin-bottom: 10px; /* Add space between the logo and the title */
 }
 
 .team-members {
@@ -115,6 +116,7 @@ main {
     justify-content: center;
     flex-wrap: wrap; /* Allow the team members to wrap on smaller screens */
     margin-top: 20px;
+    margin-bottom: 10px; /* Add space between the logo and the title */
 }
 
 .team-member {
@@ -131,4 +133,16 @@ main {
 
 .team-member img:hover {
     opacity: 0.8; /* Dim the image slightly on hover (optional) */
+}
+
+.technical-approach-section {
+    margin-bottom: 10px; /* Add space between the logo and the title */
+}
+
+.demo-section {
+    margin-bottom: 10px; /* Add space between the logo and the title */
+}
+
+.signup-section {
+    margin-bottom: 10px; /* Add space between the logo and the title */
 }
