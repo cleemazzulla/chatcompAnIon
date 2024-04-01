@@ -48,7 +48,7 @@ nav {
 
 .center-logo img {
     width: 400px; /* Adjust the width of the centered logo */
-    height: auto; /* Maintain aspect ratio */
+    height: 400px; /* Maintain aspect ratio */
 }
 
 .nav-links {
