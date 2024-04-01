@@ -127,6 +127,7 @@ main {
 
 .team-member {
     margin: 0 10px; /* Adjust spacing between team members */
+    text-align: center; /* Center align the content */
 }
 
 .team-member img {
@@ -139,6 +140,10 @@ main {
 
 .team-member img:hover {
     opacity: 0.8; /* Dim the image slightly on hover (optional) */
+}
+
+.member-info {
+    margin-top: 10px; /* Add space between the image and name */
 }
 
 .technical-approach-section {
