@@ -35,7 +35,7 @@ nav {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin-bottom: 10px; /* Add space between the logo and the title */
-    width: 25px; /* Adjust the width of the logo */
+    width: 2px; /* Adjust the width of the logo */
 }
 
 .logo_img {
@@ -108,7 +108,7 @@ main {
 /* Team section styles */
 .team-section {
     text-align: center;
-    margin-bottom: 10px; /* Add space between the logo and the title */
+    margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
 .team-members {
@@ -136,13 +136,13 @@ main {
 }
 
 .technical-approach-section {
-    margin-bottom: 10px; /* Add space between the logo and the title */
+    margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
 .demo-section {
-    margin-bottom: 10px; /* Add space between the logo and the title */
+    margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
 .signup-section {
-    margin-bottom: 10px; /* Add space between the logo and the title */
+    margin-bottom: 20px; /* Add space between the logo and the title */
 }
