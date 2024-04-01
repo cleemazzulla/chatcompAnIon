@@ -25,7 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 100px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -106,9 +106,8 @@ main {
 
 /* Team section styles */
 .team-section {
-    margin-top: 20px;
+    padding: 100px 0;
     text-align: center;
-    margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
 .team-members {
@@ -136,16 +135,13 @@ main {
 }
 
 .technical-approach-section {
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    padding: 100px 0;
 }
 
 .demo-section {
-    margin-top: 20px;
-    margin-bottom: 20px; 
+    padding: 100px 0;
 }
 
 .signup-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 100px 0;
 }
