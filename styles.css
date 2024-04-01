@@ -16,9 +16,13 @@ body {
 
 /* Header styles */
 header {
-    background-color: #000c44; /* Dark blue header background */
+    background-color: #1f497d; /* Dark blue header background */
     color: #fff; /* White text color */
     padding: 20px 0;
+    position: fixed; /* Set the header to have a fixed position */
+    width: 100%; /* Make the header take up the full width of the viewport */
+    top: 0; /* Position the header at the top of the viewport */
+    z-index: 1000; /* Ensure the header is above other content */
 }
 
 nav {
