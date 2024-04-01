@@ -171,3 +171,14 @@ main {
     font-size: 24px; /* Change to your desired font size */
 }
 
+/* Scrollable container styles */
+.scrollable-container {
+    height: 300px; /* Set desired height */
+    overflow: auto; /* Enable scrolling */
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+/* Scrollable content styles */
+.scrollable-content {
+    /* Adjust padding or other styles as needed */
+}
