@@ -149,29 +149,28 @@ main {
     margin-top: 10px; /* Add space between the image and name */
 }
 
-.product {
+.product-section {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
-.product img {
+.product-section img {
     width: 100px; /* Adjust the width of the centered logo */
     height: auto; /* Maintain aspect ratio */
 }
 
 .technical-approach-section {
-    padding: 50px;
+    padding: 100px;
 }
 
-
-.demo-section {
-    padding: 50px;
+.other-resources-section {
+    padding: 100px;
 }
 
 .signup-section {
-    padding: 50px;
+    padding: 100px;
 }
 
 .title {
