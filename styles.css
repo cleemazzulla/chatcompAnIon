@@ -25,7 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -37,8 +37,8 @@ nav {
     margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
-.logo img{
-    width: 60px; /* Adjust the width of the centered logo */
+.logo img {
+    width: 100px; /* Adjust the width of the centered logo */
     height: auto; /* Maintain aspect ratio */
 }
 
