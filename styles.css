@@ -109,7 +109,7 @@ main {
 
 /* Team section styles */
 .team-section {
-    padding: 25px;
+    padding: 50px;
     text-align: center;
 }
 
@@ -149,16 +149,29 @@ main {
     margin-top: 10px; /* Add space between the image and name */
 }
 
-.technical-approach-section {
-    padding: 25px;
+.product {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
+.product img {
+    width: 100px; /* Adjust the width of the centered logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.technical-approach-section {
+    padding: 50px;
+}
+
+
 .demo-section {
-    padding: 25px;
+    padding: 50px;
 }
 
 .signup-section {
-    padding: 25px;
+    padding: 50px;
 }
 
 .title {
