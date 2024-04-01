@@ -145,3 +145,11 @@ main {
 .signup-section {
     padding: 25px;
 }
+
+.title {
+    color: #333; /* Default color for the text */
+}
+
+.highlight {
+    color: #ff0000; /* Color for the highlighted letters */
+}
