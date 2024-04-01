@@ -37,8 +37,8 @@ nav {
     margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
-.logo-berkeley {
-    width: 1px; /* Adjust the width of the logo */
+.logo img{
+    width: 60px; /* Adjust the width of the centered logo */
     height: auto; /* Maintain aspect ratio */
 }
 
