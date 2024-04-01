@@ -157,20 +157,20 @@ main {
 }
 
 .product-section img {
-    width: 100px; /* Adjust the width of the centered logo */
+    width: 50px; /* Adjust the width of the centered logo */
     height: auto; /* Maintain aspect ratio */
 }
 
 .technical-approach-section {
-    padding: 100px;
+    padding: 50px;
 }
 
 .other-resources-section {
-    padding: 100px;
+    padding: 50px;
 }
 
 .signup-section {
-    padding: 100px;
+    padding: 50px;
 }
 
 .title {
