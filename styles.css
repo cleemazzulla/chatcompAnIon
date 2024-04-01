@@ -9,14 +9,14 @@ body, h1, h2, h3, p, ul, li, nav {
 /* Body styles */
 body {
     font-family: Montserrat, sans-serif;
-    background-color: #000f3c; /* Dark blue background */
+    background-color: #000c44; /* Dark blue background */
     color: #fff; /* White text color */
     text-align: center; /* Center align the content */
 }
 
 /* Header styles */
 header {
-    background-color: #000f3c; /* Dark blue header background */
+    background-color: #000c44; /* Dark blue header background */
     color: #fff; /* White text color */
     padding: 20px 0;
 }
