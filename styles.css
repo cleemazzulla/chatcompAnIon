@@ -35,7 +35,7 @@ nav {
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin-bottom: 10px; /* Add space between the logo and the title */
-    width: 50; /* Adjust the width of the logo */
+    width: 25px; /* Adjust the width of the logo */
 }
 
 .logo_img {
