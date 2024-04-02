@@ -188,7 +188,7 @@ main {
     padding-bottom: 20px; /* Add padding to the bottom to prevent overlay */
 }
 /* footer styles */
-.footer {
+footer {
   position: absolute;
   bottom: 0;
   width: 100%;
