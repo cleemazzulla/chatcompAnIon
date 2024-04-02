@@ -16,7 +16,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #1f497d; /* Dark blue header background */
+    background-color: #000c44; /* Dark blue header background */
     color: #fff; /* White text color */
     position: fixed; /* Set the header to have a fixed position */
     width: 100%; /* Make the header take up the full width of the viewport */
@@ -179,4 +179,10 @@ main {
 .overview-section p strong {
     color: #5271ff; /* Change to your desired color */
     font-size: 24px; /* Change to your desired font size */
+}
+
+/* Video container styles */
+.video-container {
+    margin-top: 100px; /* Adjust the margin to create space between the banner and the video */
+    padding-bottom: 20px; /* Add padding to the bottom to prevent overlay */
 }
