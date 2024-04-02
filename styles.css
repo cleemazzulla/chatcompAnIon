@@ -150,7 +150,8 @@ main {
 }
 
 .product-section {
-    margin-bottom: 20px; /* Add space between the logo and the title */
+    display: grid;
+    margin-bottom: 20px;
     padding: 50px;
 }
 
