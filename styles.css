@@ -152,12 +152,9 @@ main {
 .product-section {
     display: flex;
     margin-bottom: 20px; /* Add space between the logo and the title */
+    padding: 50px;
 }
 
-.product-section img {
-    width: 300px; /* Adjust the width of the centered logo */
-    height: auto; /* Maintain aspect ratio */
-}
 
 .technical-approach-section {
     padding: 50px;
