@@ -214,4 +214,4 @@ code {
 /* adding divider style */
 
 .divider {
-  width: 100%;  height: 2px;   background-color: #FFFFFF;  margin: 10px 0;  }
+  width: 100%;  height: .02px;   background-color: #FFFFFF;  margin: 10px 0;  }
