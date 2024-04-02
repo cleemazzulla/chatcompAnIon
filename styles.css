@@ -210,3 +210,8 @@ body > .container {
 code {
   font-size: 80%;
 }
+
+/* adding divider style */
+
+.divider {
+  width: 100%;  height: 2px;   background-color: #FFFFFF;  margin: 10px 0;  }
