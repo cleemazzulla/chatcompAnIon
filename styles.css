@@ -150,6 +150,7 @@ main {
 }
 
 .product-section {
+    display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
     margin-bottom: 20px; /* Add space between the logo and the title */
