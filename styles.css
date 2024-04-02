@@ -22,7 +22,6 @@ header {
     width: 100%; /* Make the header take up the full width of the viewport */
     top: 0; /* Position the header at the top of the viewport */
     z-index: 1000; /* Ensure the header is above other content */
-    padding: 10px 0; /* Adjust the padding to make the height smaller */
 
 }
 
