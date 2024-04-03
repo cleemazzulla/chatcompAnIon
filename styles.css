@@ -118,6 +118,8 @@ main {
 .team-section {
     padding: 50px;
     text-align: center;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 .team-section p {
