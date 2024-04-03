@@ -200,8 +200,12 @@ main {
     scroll-snap-align: center;
 }
 
-.signup-section {
+.contact-section {
     padding: 20px;
+    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner'); /* Replace 'background_image.jpg' with the actual name of your image file */
+    background-size: cover; /* Adjusts the size of the background image to cover the entire container */
+    background-position: center; /* Centers the background image within the container */
+    width: 100%;
     scroll-snap-align: center;
 }
 
