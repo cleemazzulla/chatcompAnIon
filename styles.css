@@ -1,3 +1,4 @@
+/* Add your CSS styles here */
 /* Reset default browser styles */
 body, h1, h2, h3, p, ul, li, nav {
     margin: 0;
@@ -8,9 +9,9 @@ body, h1, h2, h3, p, ul, li, nav {
 /* Body styles */
 body {
     font-family: Montserrat, sans-serif;
-    background-color: #000c44;
-    color: #fff;
-    text-align: center;
+    background-color: #000c44; /* Dark blue background */
+    color: #fff; /* White text color */
+    text-align: center; /* Center align the content */
 }
 
 .scroll-container {
@@ -21,12 +22,13 @@ body {
 
 /* Header styles */
 header {
-    background-color: #000c44;
-    color: #fff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    background-color: #000c44; /* Dark blue header background */
+    color: #fff; /* White text color */
+    position: fixed; /* Set the header to have a fixed position */
+    width: 100%; /* Make the header take up the full width of the viewport */
+    top: 0; /* Position the header at the top of the viewport */
+    z-index: 1000; /* Ensure the header is above other content */
+
 }
 
 nav {
@@ -35,43 +37,191 @@ nav {
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 0px;
 }
 
 .logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px; /* Add space between the logo and the title */
 }
 
 .logo img {
-    width: 100px;
-    height: auto;
+    width: 100px; /* Adjust the width of the centered logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.center-logo {
+    margin-bottom: 10px; /* Add space between the logo and the title */
+}
+
+.center-logo img {
+    width: 500px; /* Adjust the width of the centered logo */
+    height: 500px; /* Maintain aspect ratio */
 }
 
 .nav-links {
     list-style: none;
-    display: flex;
 }
 
 .nav-links li {
+    display: inline-block;
     margin-left: 20px;
 }
 
 .nav-links li a {
-    color: #fff;
+    color: #fff; /* White text color */
     text-decoration: none;
 }
 
 /* Main styles */
 main {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 0 20px;
-    text-align: center;
+    text-align: center; /* Center align the content */
 }
 
 .hero {
     text-align: center;
-    padding
+    padding: 25px;
+    scroll-snap-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff; /* Dark blue heading color */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #fff; /* Medium blue text color */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0052cc; /* Medium blue button background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #1a75ff; /* Dark blue button background on hover */
+}
+
+/* Team section styles */
+.team-section {
+    padding: 50px;
+    text-align: center;
+    scroll-snap-align: center;
+    background-color: #5271ff;
+    width: 100%;
+}
+
+.team-section p {
+    font-size: 10px; /* Adjust the font size as needed */
+    color: #ffff; /* Adjust the text color as needed */
+    margin-top: 10px; /* Adjust the top margin as needed */
+}
+
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow the team members to wrap on smaller screens */
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add space between the logo and the title */
+}
+
+.team-member {
+    margin: 0 10px; /* Adjust spacing between team members */
+    text-align: center; /* Center align the content */
+}
+
+.team-member img {
+    border-radius: 50%; /* Make the image circular */
+    width: 150px; /* Adjust image size */
+    height: 150px; /* Adjust image size */
+    object-fit: cover; /* Maintain aspect ratio */
+    flex: 0 0 auto; /* Ensures images don't grow or shrink */
+}
+
+.team-member img:hover {
+    opacity: 0.8; /* Dim the image slightly on hover (optional) */
+}
+
+.member-info {
+    margin-top: 10px; /* Add space between the image and name */
+}
+
+.product-section {
+    display: grid;
+    padding: 10px 20px;
+    scroll-snap-align: center;
+}
+
+
+.technical-approach-section {
+    padding: 10px 20px;
+    scroll-snap-align: center;
+    background-color: #5271ff;
+    width: 100%;
+}
+
+.other-resources-section {
+    padding: 20px;
+    scroll-snap-align: center;
+}
+
+.signup-section {
+    padding: 20px;
+    scroll-snap-align: center;
+}
+
+.title {
+    color: #333; /* Default color for the text */
+}
+
+.highlight {
+    color: #5271ff; /* Color for the highlighted letters */
+}
+
+.overview-section p strong {
+    color: #5271ff; /* Change to your desired color */
+    font-size: 24px; /* Change to your desired font size */
+}
+
+/* Video container styles */
+.video-container {
+    margin-top: 100px; /* Adjust the margin to create space between the banner and the video */
+    padding-bottom: 20px; /* Add padding to the bottom to prevent overlay */
+}
+/* footer styles */
+footer {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 30px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: ##f5f5f5;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
