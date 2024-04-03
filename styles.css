@@ -134,6 +134,7 @@ main {
 /* Team section styles */
 .team-section {
     padding: 50px;
+    margin: auto;
     text-align: center;
     scroll-snap-align: center;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner (1).png'); /* Replace 'background_image.jpg' with the actual name of your image file */
