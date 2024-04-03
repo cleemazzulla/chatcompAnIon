@@ -120,6 +120,8 @@ main {
     padding: 50px;
     text-align: center;
     scroll-snap-align: center;
+    background-color: #5271ff;
+    width: 100%;
 }
 
 .team-section p {
@@ -135,7 +137,6 @@ main {
     flex-wrap: wrap; /* Allow the team members to wrap on smaller screens */
     margin-top: 20px;
     margin-bottom: 10px; /* Add space between the logo and the title */
-    background-color: #5271ff;
 }
 
 .team-member {
@@ -170,11 +171,11 @@ main {
     padding: 10px 20px;
     scroll-snap-align: center;
     background-color: #5271ff;
+    width: 100%;
 }
 
 .other-resources-section {
     padding: 20px;
-    width: 100%;
     scroll-snap-align: center;
 }
 
