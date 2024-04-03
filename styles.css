@@ -83,6 +83,7 @@ main {
 }
 
 .hero {
+    max-width: 1200px;
     text-align: center;
     padding: 25px;
     scroll-snap-align: center;
