@@ -162,23 +162,24 @@ main {
 
 .product-section {
     display: grid;
-    height: 100vh;
+    padding: 10px 20px;
     scroll-snap-align: center;
 }
 
 
 .technical-approach-section {
-    height: 100vh;
+    padding: 10px 20px;
     scroll-snap-align: center;
+    background-color: darkorchid;
 }
 
 .other-resources-section {
-    height: 100vh;
+    padding: 10px 20px;
     scroll-snap-align: center;
 }
 
 .signup-section {
-    height: 100vh;
+    padding: 10px 20px;
     scroll-snap-align: center;
 }
 
