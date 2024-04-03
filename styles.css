@@ -86,6 +86,8 @@ main {
 .hero {
     text-align: center;
     padding: 25px;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 .hero h1 {
