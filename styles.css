@@ -83,6 +83,7 @@ main {
 }
 
 .hero {
+    margin: auto;
     width: 80%;
     text-align: center;
     padding: 25px;
@@ -102,6 +103,7 @@ main {
 }
 
 .overview-section {
+    margin: auto;
     width: 80%;
     text-align: center;
     padding: 25px;
