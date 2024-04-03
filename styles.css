@@ -86,7 +86,6 @@ main {
 .hero {
     text-align: center;
     padding: 25px;
-    height: 100vh;
     scroll-snap-align: center;
 }
 
@@ -120,7 +119,6 @@ main {
 .team-section {
     padding: 50px;
     text-align: center;
-    height: 100vh;
     scroll-snap-align: center;
 }
 
