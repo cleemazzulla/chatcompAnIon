@@ -152,8 +152,9 @@ main {
 
 .product-section {
     display: grid;
-    margin-bottom: 20px;
-    padding: 50px;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 
