@@ -12,6 +12,9 @@ body {
     background-color: #000c44; /* Dark blue background */
     color: #fff; /* White text color */
     text-align: center; /* Center align the content */
+}
+
+.scroll-container {
     height: 100vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
