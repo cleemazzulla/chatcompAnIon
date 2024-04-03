@@ -12,6 +12,9 @@ body {
     background-color: #000c44; /* Dark blue background */
     color: #fff; /* White text color */
     text-align: center; /* Center align the content */
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 
 /* Header styles */
@@ -152,22 +155,24 @@ main {
 
 .product-section {
     display: grid;
-    position: relative;
-    width: 100%;
-    height: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 
 .technical-approach-section {
-    padding: 50px;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 .other-resources-section {
-    padding: 50px;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 .signup-section {
-    padding: 50px;
+    height: 100vh;
+    scroll-snap-align: center;
 }
 
 .title {
