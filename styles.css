@@ -83,7 +83,7 @@ main {
 }
 
 .hero {
-    max-width: 1200px;
+    max-width: 80%;
     text-align: center;
     padding: 25px;
     scroll-snap-align: center;
@@ -96,6 +96,25 @@ main {
 }
 
 .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #fff; /* Medium blue text color */
+}
+
+.overview-section {
+    width: 80%;
+    text-align: center;
+    padding: 25px;
+    scroll-snap-align: center;
+}
+
+.overview-section h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff; /* Dark blue heading color */
+}
+
+.overview-section p {
     font-size: 1.2rem;
     margin-bottom: 30px;
     color: #fff; /* Medium blue text color */
