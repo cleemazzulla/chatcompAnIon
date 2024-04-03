@@ -108,11 +108,6 @@ main {
     scroll-snap-align: center;
 }
 
-.overview-section h2 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: #fff; /* Dark blue heading color */
-}
 
 .overview-section p {
     font-size: 1.2rem;
