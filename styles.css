@@ -213,6 +213,15 @@ main {
     color: #5271ff; /* Color for the highlighted letters */
 }
 
+.type-input {
+  font-size: 16px;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  border-color: #F2F4F6;;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
 .overview-section p strong {
     color: #5271ff; /* Change to your desired color */
     font-size: 24px; /* Change to your desired font size */
