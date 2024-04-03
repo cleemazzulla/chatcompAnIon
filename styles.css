@@ -117,34 +117,19 @@ main {
 
 /* Team section styles */
 .team-section {
-    padding: 50px 0; /* Remove left and right padding */
+    padding: 50px;
     text-align: center;
     scroll-snap-align: center;
-    background-image: url('https://github.com/cleemazzulla/chatcompAnIon/blob/main/Chat%20Companion%20Transparent%20Logo.png?raw=true'); /* Replace with the path to your background image */
-    background-size: cover; /* Ensure the image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    width: 100vw; /* Make the section span the entire viewport width */
-    position: relative; /* Required for the next step */
-    left: 50%; /* Required for the next step */
-    right: 50%; /* Required for the next step */
-    margin-left: -50vw; /* Required for the next step */
-    margin-right: -50vw; /* Required for the next step */
+    background-color: #5271ff;
+    width: 100%;
 }
 
 .team-section p {
     font-size: 10px; /* Adjust the font size as needed */
     color: #ffff; /* Adjust the text color as needed */
     margin-top: 10px; /* Adjust the top margin as needed */
-
 }
 
-.team-content {
-    max-width: 1200px; /* Adjust this value as needed */
-    margin: 0 auto; /* Center the content horizontally */
-    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background for better text legibility */
-    padding: 20px; /* Add some padding */
-}
 
 .team-members {
     display: flex;
