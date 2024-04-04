@@ -207,7 +207,7 @@ main {
     scroll-snap-align: center;
 }
 
-.producSlides {
+.productSlides {
     max-width: 1000px;
     height: 50vh;
     margin: auto;
