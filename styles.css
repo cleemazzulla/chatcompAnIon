@@ -180,7 +180,9 @@ main {
 }
 
 .product-section {
-    display: grid;
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
     padding: 10px 20px;
     scroll-snap-align: center;
 }
@@ -293,6 +295,11 @@ main {
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
 
 .overview-section p strong {
