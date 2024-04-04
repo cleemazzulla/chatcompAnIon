@@ -182,6 +182,7 @@ main {
 .product-section {
     position: relative;
     max-width: 1000px;
+    max-height: 1000px;
     margin: auto;
     padding: 10px 20px;
     scroll-snap-align: center;
