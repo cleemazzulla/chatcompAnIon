@@ -200,6 +200,15 @@ main {
 
 
 .technical-approach-section {
+    /* make element inline flex-container */
+    /* this will make its children flex-items */
+    display: inline-flex;
+    /* align-items items in column */
+    flex-direction: column;
+    /* center items horizontally */
+    align-items: center;
+    /* center items vertically */
+    justify-content: center;
     height: 50vh;
     padding: 10px 20px;
     scroll-snap-align: center;
@@ -210,12 +219,30 @@ main {
 }
 
 .other-resources-section {
+    /* make element inline flex-container */
+    /* this will make its children flex-items */
+    display: inline-flex;
+    /* align-items items in column */
+    flex-direction: column;
+    /* center items horizontally */
+    align-items: center;
+    /* center items vertically */
+    justify-content: center;
     height: 50vh;
     padding: 20px;
     scroll-snap-align: center;
 }
 
 .contact-section {
+    /* make element inline flex-container */
+    /* this will make its children flex-items */
+    display: inline-flex;
+    /* align-items items in column */
+    flex-direction: column;
+    /* center items horizontally */
+    align-items: center;
+    /* center items vertically */
+    justify-content: center;
     height: 50vh;
     padding: 20px;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
