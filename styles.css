@@ -83,7 +83,6 @@ main {
 }
 
 .hero {
-    height: 50vh;
     margin: auto;
     width: 80%;
     text-align: center;
@@ -106,6 +105,16 @@ main {
 .overview-section {
     margin: auto;
     width: 80%;
+    height: 50vh;
+    /* make element inline flex-container */
+    /* this will make its children flex-items */
+    display: inline-flex;
+    /* align-items items in column */
+    flex-direction: column;
+    /* center items horizontally */
+    align-items: center;
+    /* center items vertically */
+    justify-content: center;
     text-align: center;
     padding: 25px;
     scroll-snap-align: center;
