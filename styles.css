@@ -208,11 +208,7 @@ main {
 }
 
 .productSlides {
-    max-width: 1000px;
-    height: 50vh;
-    margin: auto;
-    padding: 50px;
-    scroll-snap-align: center;
+    display: none;
 }
 
 .productSlides iframe {
