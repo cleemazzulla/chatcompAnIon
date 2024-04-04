@@ -86,7 +86,7 @@ main {
     margin: auto;
     width: 80%;
     text-align: center;
-    padding: 25px;
+    padding: 50px;
     scroll-snap-align: center;
 }
 
@@ -116,7 +116,7 @@ main {
     /* center items vertically */
     justify-content: center;
     text-align: center;
-    padding: 25px;
+    padding: 50px;
     scroll-snap-align: center;
 }
 
@@ -203,7 +203,7 @@ main {
     max-width: 1000px;
     height: 50vh;
     margin: auto;
-    padding: 10px 20px;
+    padding: 50px;
     scroll-snap-align: center;
 }
 
@@ -219,7 +219,7 @@ main {
     /* center items vertically */
     justify-content: center;
     height: 50vh;
-    padding: 10px 20px;
+    padding: 50px;
     scroll-snap-align: center;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/blue_background.jpg'); /* Replace 'background_image.jpg' with the actual name of your image file */
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
@@ -238,7 +238,7 @@ main {
     /* center items vertically */
     justify-content: center;
     height: 50vh;
-    padding: 20px;
+    padding: 50px;
     scroll-snap-align: center;
 }
 
@@ -253,7 +253,7 @@ main {
     /* center items vertically */
     justify-content: center;
     height: 50vh;
-    padding: 20px;
+    padding: 50px;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
     background-position: center; /* Centers the background image within the container */
