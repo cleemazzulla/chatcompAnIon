@@ -207,6 +207,24 @@ main {
     scroll-snap-align: center;
 }
 
+.producSlides {
+    max-width: 1000px;
+    height: 50vh;
+    margin: auto;
+    padding: 50px;
+    scroll-snap-align: center;
+}
+
+.productSlides iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.productSlides img {
+    height: 100%;
+    width: 100%;
+}
+
 
 .technical-approach-section {
     /* make element inline flex-container */
