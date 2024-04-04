@@ -25,7 +25,7 @@ header {
     background-color: #000c44; /* Dark blue header background */
     color: #fff; /* White text color */
     position: fixed; /* Set the header to have a fixed position */
-    width: 50%; /* Make the header take up the full width of the viewport */
+    width: 100%; /* Make the header take up the full width of the viewport */
     top: 0; /* Position the header at the top of the viewport */
     z-index: 1000; /* Ensure the header is above other content */
 
