@@ -15,7 +15,7 @@ body {
 }
 
 .scroll-container {
-    height: 100vh;
+    height: 50vh;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
@@ -25,7 +25,7 @@ header {
     background-color: #000c44; /* Dark blue header background */
     color: #fff; /* White text color */
     position: fixed; /* Set the header to have a fixed position */
-    width: 100%; /* Make the header take up the full width of the viewport */
+    width: 50%; /* Make the header take up the full width of the viewport */
     top: 0; /* Position the header at the top of the viewport */
     z-index: 1000; /* Ensure the header is above other content */
 
@@ -83,7 +83,7 @@ main {
 }
 
 .hero {
-    height: 100vh;
+    height: 50vh;
     margin: auto;
     width: 80%;
     text-align: center;
@@ -134,7 +134,7 @@ main {
 
 /* Team section styles */
 .team-section {
-    height: 100vh;
+    height: 50vh;
     padding: 50px;
     margin: auto;
     text-align: center;
@@ -184,7 +184,7 @@ main {
 .product-section {
     position: relative;
     max-width: 1000px;
-    height: 100vh;
+    height: 50vh;
     margin: auto;
     padding: 10px 20px;
     scroll-snap-align: center;
@@ -192,7 +192,7 @@ main {
 
 
 .technical-approach-section {
-    height: 100vh;
+    height: 50vh;
     padding: 10px 20px;
     scroll-snap-align: center;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/blue_background.jpg'); /* Replace 'background_image.jpg' with the actual name of your image file */
@@ -202,13 +202,13 @@ main {
 }
 
 .other-resources-section {
-    height: 100vh;
+    height: 50vh;
     padding: 20px;
     scroll-snap-align: center;
 }
 
 .contact-section {
-    height: 100vh;
+    height: 50vh;
     padding: 20px;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
