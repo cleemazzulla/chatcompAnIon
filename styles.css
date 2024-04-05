@@ -207,6 +207,11 @@ main {
     scroll-snap-align: center;
 }
 
+.caroussel-inner {
+    width: 200px;
+    height: 400px;
+}
+
 .productSlides {
     display: none;
 }
