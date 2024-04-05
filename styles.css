@@ -208,8 +208,8 @@ main {
 }
 
 .caroussel-inner {
-    width: 100%;
-    height: 100%;
+    max-width: 1000px;
+    height: 50vh;
 }
 
 .productSlides {
