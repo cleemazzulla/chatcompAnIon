@@ -209,7 +209,7 @@ main {
 
 .caroussel-inner {
     max-width: 1000px;
-    height: 50vh;
+    max-height: 50vh;
 }
 
 .productSlides {
