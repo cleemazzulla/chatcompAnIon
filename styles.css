@@ -214,14 +214,8 @@ main {
 
 .productSlides {
     display: none;
-}
-
-.productSlides iframe {
     width: 100%;
-}
-
-.productSlides img {
-    width: 100%;
+    height: 100%;
 }
 
 
