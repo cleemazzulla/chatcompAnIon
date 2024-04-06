@@ -251,31 +251,31 @@
         </section>
 
         <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
+        let technical_slideIndex = 1;
+        technical_showSlides(technical_slideIndex);
         
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
+        function technical_plusSlides(n) {
+          technical_showSlides(technical_slideIndex += n);
         }
         
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
+        function technical_currentSlide(n) {
+          technical_showSlides(technical_slideIndex = n);
         }
         
-        function showSlides(n) {
+        function technical_showSlides(n) {
           let i;
           let slides = document.getElementsByClassName("technicalSlides");
           let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
+          if (n > slides.length) {technical_slideIndex = 1}    
+          if (n < 1) {technical_slideIndex = slides.length}
           for (i = 0; i < slides.length; i++) {
             slides[i].style.display = "none";  
           }
           for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
           }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
+          slides[technical_slideIndex-1].style.display = "block";  
+          dots[technical_slideIndex-1].className += " active";
         }
         </script>
 
