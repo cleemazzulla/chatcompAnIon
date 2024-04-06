@@ -243,7 +243,7 @@ th[scope='col'] {
 }
 
 th[scope='row'] {
-  background-color: #3394F5;
+  background-color: #0251A0;
 }
 
 td {
@@ -251,11 +251,11 @@ td {
 }
 
 tr:nth-of-type(even) {
-  background-color: #68AFF5;
+  background-color: #3394F5;
 }
 
 tr:nth-of-type(odd) {
-  background-color: #68AFF5;
+  background-color: #3394F5;
 }
 
 table {
