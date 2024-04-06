@@ -235,6 +235,7 @@ main {
 
 .technicalSlides {
     display: none;
+    justify-content: center;
 }
 
 th,
