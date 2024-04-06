@@ -218,6 +218,7 @@ main {
 
 
 .technical-approach-section {
+    position: relative;
     height: 50vh;
     padding: 50px;
     margin: auto;
@@ -229,7 +230,8 @@ main {
 }
 
 .technical-caroussel-inner {
-    width: 80%;
+    width: 85%;
+    align-items: center;
 }
 
 .technicalSlides {
