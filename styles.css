@@ -234,7 +234,7 @@ main {
 
 .technicalSlides {
     display: none;
-    align-elements: center;
+    align-items: center;
 }
 
 th,
