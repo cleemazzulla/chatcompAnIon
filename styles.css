@@ -229,13 +229,12 @@ main {
 }
 
 .technical-caroussel-inner {
-    width: 1000px;
-    height: auto;
+    width: 80%;
 }
 
 .technicalSlides {
     display: none;
-    justify-content: center;
+    align-elements: center;
 }
 
 th,
