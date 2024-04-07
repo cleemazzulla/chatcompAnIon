@@ -287,9 +287,13 @@ table {
 }
 
 .resourcesSlides {
+  display: none;
+}
+
+.resources-container {
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 .resource-text {
