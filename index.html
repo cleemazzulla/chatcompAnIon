@@ -330,21 +330,100 @@
         }
         </script>
 
-        
         <section id="other-resources" class="other-resources-section">
-            <h2>Other Resources</h2>
-            <br>
-            <h3>Reporting a grooming incident</h3>
-            <br>
-            <ul>
-              <li>FBI</li>
-              <li>Cyber Tip Line</li>
-              <li>Local law enforcement</li>
-            </ul> 
-            <br><br>
-            <h3>Other</h3>
-            <br>
+           <h2>Other Resources</h2>
+           <div class="caroussel-inner">
+           <div class="resourcesSlides fade">
+             <h3>CyberTipline</h3>
+             <div class="numbertext">1 / 4</div>
+             <div class="resources-container">
+                  <div class="resources-image">
+                  <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
+                  </div>
+                  <div class="resource-text">
+                  <h1>Paris is one of the most magnificient cities in France.</h1>
+                  </div>
+             </div>
+             </div>
+          <div class="resourcesSlides fade">
+             <h3>Take it Down</h3>
+             <div class="numbertext">2 / 4</div>
+             <div class="resources-container">
+                  <div class="resources-image">
+                  <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
+                  </div>
+                  <div class="resources-text">
+                  <h1>Paris is one of the most magnificient cities in France.</h1>
+                  </div>
+             </div>
+             </div>
+            <div class="resourcesSlides fade">
+             <h3>Team HOPE</h3>
+             <div class="numbertext">3 / 4</div>
+             <div class="resources-container">
+                  <div class="resources-image">
+                  <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
+                  </div>
+                  <div class="resources-text">
+                  <h1>Paris is one of the most magnificient cities in France.</h1>
+                  </div>
+             </div>
+             </div>
+            <div class="resourcesSlides fade">
+             <h3>Child Sexual Abuse Matrial (CSAM)</h3>
+             <div class="numbertext">4 / 4</div>
+             <div class="resources-container">
+                  <div class="resources-image">
+                  <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
+                  </div>
+                  <div class="resources-text">
+                  <h1>Paris is one of the most magnificient cities in France.</h1>
+                  </div>
+             </div>
+             </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="resources_plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="resources_plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="resources_currentSlide(1)"></span> 
+          <span class="dot" onclick="resources_currentSlide(2)"></span> 
+          <span class="dot" onclick="resources_currentSlide(3)"></span> 
+        </div>
         </section>
+
+        <script>
+        let resources_slideIndex = 1;
+        resources_showSlides(resources_slideIndex);
+        
+        function resources_plusSlides(n) {
+          resources_showSlides(resources_slideIndex += n);
+        }
+        
+        function resources_currentSlide(n) {
+          resources_showSlides(resources_slideIndex = n);
+        }
+        
+        function resources_showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("resources_productSlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {resources_slideIndex = 1}    
+          if (n < 1) {resources_slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[resources_slideIndex-1].style.display = "block";  
+          dots[resources_slideIndex-1].className += " active";
+        }
+        </script>
 
 
 
