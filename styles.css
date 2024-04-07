@@ -305,7 +305,7 @@ table {
 }
 
 
-.contact-section {
+.connect-section {
     /* make element inline flex-container */
     /* this will make its children flex-items */
     display: inline-flex;
@@ -315,7 +315,7 @@ table {
     align-items: center;
     /* center items vertically */
     justify-content: center;
-    height: 50vh;
+    height: 10vh;
     padding: 50px;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
