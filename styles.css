@@ -334,6 +334,8 @@ table {
 
 .type-input {
   align-items: center;
+  font-size: 14pt;
+  width: 200px;
   padding: 0.5rem;
   text-align: center;
   border-color: #F2F4F6;
@@ -342,6 +344,8 @@ table {
 
 .type-message-input {
   align-items: center;
+  font-size: 14pt;
+  width: 200px;
   padding: 2rem;
   text-align: center;
   border-color: #F2F4F6;
@@ -454,7 +458,7 @@ body > .container {
 }
 
 .footer > .container {
-  padding-right: 15px;
+  padding-right: 150px;
   padding-left: 15px;
 }
 
