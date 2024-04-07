@@ -273,19 +273,30 @@ table {
 }
 
 .other-resources-section {
-    /* make element inline flex-container */
-    /* this will make its children flex-items */
-    display: inline-flex;
-    /* align-items items in column */
-    flex-direction: column;
-    /* center items horizontally */
-    align-items: center;
-    /* center items vertically */
-    justify-content: center;
+    position: relative;
+    max-width: 1000px;
     height: 50vh;
+    margin: auto;
     padding: 50px;
     scroll-snap-align: center;
 }
+
+.resources-caroussel-inner {
+    width: 1000px;
+    height: auto;
+}
+
+.resourcesSlides {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.resource-text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
 
 .contact-section {
     /* make element inline flex-container */
