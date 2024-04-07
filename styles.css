@@ -458,6 +458,7 @@ body > .container {
 }
 
 .footer > .container {
+  padding-right: 15px;
   padding-left: 150px;
 }
 
