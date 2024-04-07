@@ -278,7 +278,7 @@ table {
     height: 50vh;
     margin: auto;
     padding: 50px;
-    padding-left: 50px;
+    padding-left: 100px;
     scroll-snap-align: center;
 }
 
