@@ -87,6 +87,7 @@ main {
     width: 80%;
     text-align: center;
     padding: 50px;
+    padding-left: 150px;
     scroll-snap-align: center;
 }
 
@@ -117,6 +118,7 @@ main {
     justify-content: center;
     text-align: center;
     padding: 50px;
+    padding-left: 150px;
     scroll-snap-align: center;
 }
 
@@ -204,6 +206,7 @@ main {
     height: 50vh;
     margin: auto;
     padding: 50px;
+    padding-left: 150px;
     scroll-snap-align: center;
 }
 
