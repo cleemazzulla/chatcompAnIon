@@ -333,7 +333,6 @@ table {
 }
 
 .type-input {
-  font-size: 16px;
   align-items: center;
   padding: 0.5rem;
   text-align: center;
@@ -342,9 +341,8 @@ table {
 }
 
 .type-message-input {
-  font-size: 16px;
   align-items: center;
-  padding: 4rem;
+  padding: 2rem;
   text-align: center;
   border-color: #F2F4F6;
   border-radius: 1rem 1rem 1rem 1rem;
