@@ -341,6 +341,15 @@ table {
   border-radius: 1rem 1rem 1rem 1rem;
 }
 
+.type-message-input {
+  font-size: 16px;
+  align-items: center;
+  padding: 4rem;
+  text-align: center;
+  border-color: #F2F4F6;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
