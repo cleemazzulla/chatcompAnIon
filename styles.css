@@ -158,7 +158,7 @@ main {
     /* center items vertically */
     justify-content: center;
     scroll-snap-align: center;
-    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner (1).png'); /* Replace 'background_image.jpg' with the actual name of your image file */
+    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 3.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
     background-position: center; /* Centers the background image within the container */
     width: 100%;
@@ -226,7 +226,7 @@ main {
     padding: 50px;
     margin: auto;
     scroll-snap-align: center;
-    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/blue_background.jpg'); /* Replace 'background_image.jpg' with the actual name of your image file */
+    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 1.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
     background-position: center; /* Centers the background image within the container */
     width: 100%;
@@ -317,7 +317,7 @@ table {
     justify-content: center;
     height: 10vh;
     padding: 50px;
-    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Blue Modern Company Slogan LinkedIn Banner.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
+    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 2.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
     background-size: cover; /* Adjusts the size of the background image to cover the entire container */
     background-position: center; /* Centers the background image within the container */
     width: 100%;
