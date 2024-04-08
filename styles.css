@@ -77,12 +77,12 @@ nav {
 
 
 .nav-links li a:hover {
-  background-color: #019fc2;
+  background-color: #5271ff;
 }
 
 .nav-links li a.active {
-  background-color: #f7f8fa;
-  color: #019fc2;
+  background-color: #5271ff;
+  color: #5271ff;
   cursor: default;
 }
 
