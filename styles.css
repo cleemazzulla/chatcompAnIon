@@ -324,6 +324,19 @@ table {
     scroll-snap-align: center;
 }
 
+.connect-methods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow the team members to wrap on smaller screens */
+    margin-top: 20px;
+    margin-bottom: 10px; /* Add space between the logo and the title */
+}
+
+.connect-method {
+    margin: 0 10px; /* Adjust spacing between team members */
+    text-align: center; /* Center align the content */
+}
+
 .title {
     color: #333; /* Default color for the text */
 }
