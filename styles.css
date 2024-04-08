@@ -317,9 +317,9 @@ table {
     justify-content: center;
     height: 10vh;
     padding: 50px;
-    background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 2.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
-    background-size: cover; /* Adjusts the size of the background image to cover the entire container */
-    background-position: center; /* Centers the background image within the container */
+    /* background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 2.png');*/ /* Replace 'background_image.jpg' with the actual name of your image file */
+    /* background-size: cover;*/ /* Adjusts the size of the background image to cover the entire container */
+    /*  background-position: center;*/ /* Centers the background image within the container */
     width: 100%;
     scroll-snap-align: center;
 }
