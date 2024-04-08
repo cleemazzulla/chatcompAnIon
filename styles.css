@@ -75,6 +75,17 @@ nav {
     text-decoration: none;
 }
 
+
+.nav-links li a:hover {
+  background-color: #019fc2;
+}
+
+.nav-links li a.active {
+  background-color: #f7f8fa;
+  color: #019fc2;
+  cursor: default;
+}
+
 /* Main styles */
 main {
     margin: 20px auto;
