@@ -251,8 +251,8 @@ main {
     height: 100%;
     align-items: center;
     justify-content: center;
+    position: absolute;
     margin: auto;
-    vertical-align: middle;
 }
 
 th,
