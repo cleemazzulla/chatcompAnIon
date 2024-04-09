@@ -157,7 +157,8 @@ main {
 /* Team section styles */
 .team-section {
     height: 50vh;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
     /* make element inline flex-container */
     /* this will make its children flex-items */
