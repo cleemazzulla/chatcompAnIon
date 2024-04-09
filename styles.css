@@ -282,6 +282,7 @@ tr:nth-of-type(odd) {
 }
 
 table {
+  margin: 0 auto;
   border-collapse: collapse;
   border: 2px solid rgb(140 140 140);
   letter-spacing: 1px;
