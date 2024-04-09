@@ -95,7 +95,7 @@ main {
 
 .hero {
     margin: auto;
-    width: 80%;
+    max-width: 1000px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -117,7 +117,7 @@ main {
 
 .overview-section {
     margin: auto;
-    width: 80%;
+    max-width: 1000px;
     height: 50vh;
     /* make element inline flex-container */
     /* this will make its children flex-items */
