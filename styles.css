@@ -214,7 +214,7 @@ main {
 .product-section {
     position: relative;
     max-width: 1000px;
-    height: 50vh;
+    height: 100vh;
     margin: auto;
     padding: 50px;
     padding-left: 150px;
@@ -233,7 +233,7 @@ main {
 
 .technical-approach-section {
     position: relative;
-    height: 50vh;
+    height: 100vh;
     padding: 50px;
     margin: auto;
     scroll-snap-align: center;
@@ -289,7 +289,7 @@ table {
 .other-resources-section {
     position: relative;
     max-width: 1000px;
-    height: 50vh;
+    height: 100vh;
     margin: auto;
     padding: 50px;
     padding-left: 150px;
