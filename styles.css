@@ -243,11 +243,12 @@ main {
 
 .technical-caroussel-inner {
     width: 1000px;
-    height: auto;
+    height: 100%;
 }
 
 .technicalSlides {
     display: none;
+    height: 100%;
     align-items: center;
 }
 
