@@ -327,6 +327,7 @@ table {
     align-items: center;
     /* center items vertically */
     justify-content: center;
+    position: relative;
     height: 10vh;
     padding-top: 100px;
     padding-bottom: 100px;
