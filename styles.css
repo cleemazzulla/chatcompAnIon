@@ -255,8 +255,6 @@ main {
     align-items: center;
     /* center items vertically */
     justify-content: center;
-    margin: 0 auto;
-    position: absolute;
 }
 
 th,
