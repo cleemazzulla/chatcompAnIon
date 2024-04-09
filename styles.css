@@ -216,7 +216,8 @@ main {
     max-width: 1000px;
     height: 50vh;
     margin: auto;
-    padding: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     padding-left: 150px;
     scroll-snap-align: center;
 }
@@ -234,7 +235,8 @@ main {
 .technical-approach-section {
     position: relative;
     height: 50vh;
-    padding: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     margin: auto;
     scroll-snap-align: center;
     background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 1.png'); /* Replace 'background_image.jpg' with the actual name of your image file */
@@ -327,7 +329,8 @@ table {
     /* center items vertically */
     justify-content: center;
     height: 10vh;
-    padding: 50px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     /* background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 2.png');*/ /* Replace 'background_image.jpg' with the actual name of your image file */
     /* background-size: cover;*/ /* Adjusts the size of the background image to cover the entire container */
     /*  background-position: center;*/ /* Centers the background image within the container */
