@@ -250,6 +250,7 @@ main {
     display: none;
     height: 100%;
     align-items: center;
+    justify-content: center;
 }
 
 th,
