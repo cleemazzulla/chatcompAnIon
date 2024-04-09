@@ -244,13 +244,12 @@ main {
 .technical-caroussel-inner {
     width: 1000px;
     height: 100%;
-    display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
 
 .technicalSlides {
-    display: inline-block;
+    display: flex;
     height: 100%;
     /* center items horizontally */
     align-items: center;
