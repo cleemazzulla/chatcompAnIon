@@ -214,7 +214,7 @@ main {
 .product-section {
     position: relative;
     max-width: 1000px;
-    height: 50vh;
+    height: 70vh;
     margin: auto;
     padding-top: 250px;
     padding-bottom: 250px;
@@ -235,7 +235,7 @@ main {
 .technical-approach-section {
     position: relative;
     max-width: 1000px;
-    height: 50vh;
+    height: 70vh;
     margin: auto;
     padding-top: 250px;
     padding-bottom: 250px;
@@ -289,7 +289,7 @@ table {
 .other-resources-section {
     position: relative;
     max-width: 1000px;
-    height: 50vh;
+    height: 70vh;
     margin: auto;
     padding-top: 250px;
     padding-bottom: 250px;
@@ -329,6 +329,8 @@ table {
     justify-content: center;
     height: 10vh;
     padding-top: 250px;
+    padding-bottom: 100px;
+    padding-left: 150px;
     /* background-image: url('https://raw.githubusercontent.com/cleemazzulla/chatcompAnIon/main/Chat Companion - Banner 2.png');*/ /* Replace 'background_image.jpg' with the actual name of your image file */
     /* background-size: cover;*/ /* Adjusts the size of the background image to cover the entire container */
     /*  background-position: center;*/ /* Centers the background image within the container */
