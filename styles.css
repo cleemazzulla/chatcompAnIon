@@ -249,14 +249,11 @@ main {
 .technicalSlides {
     display: flex;
     height: 100%;
+    /* center items horizontally */
     align-items: center;
+    /* center items vertically */
     justify-content: center;
     margin: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 th,
