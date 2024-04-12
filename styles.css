@@ -128,7 +128,6 @@ main {
     /* center items vertically */
     justify-content: center;
     text-align: center;
-    padding-top: 50px;
     padding-bottom: 50px;
     scroll-snap-align: center;
 }
