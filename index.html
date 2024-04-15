@@ -278,9 +278,9 @@
         
         <!-- The dots/circles -->
         <div style="text-align:center">
-          <span class="dot" onclick="technical_currentSlide(1)"></span> 
-          <span class="dot" onclick="technical_currentSlide(2)"></span> 
-          <span class="dot" onclick="technical_currentSlide(3)"></span> 
+          <span class="dot-technical" onclick="technical_currentSlide(1)"></span> 
+          <span class="dot-technical" onclick="technical_currentSlide(2)"></span> 
+          <span class="dot-technical" onclick="technical_currentSlide(3)"></span> 
         </div>
         </section>
 
@@ -299,7 +299,7 @@
         function technical_showSlides(n) {
           let i;
           let slides = document.getElementsByClassName("technicalSlides");
-          let dots = document.getElementsByClassName("dot");
+          let dots = document.getElementsByClassName("dot-technical");
           if (n > slides.length) {technical_slideIndex = 1}    
           if (n < 1) {technical_slideIndex = slides.length}
           for (i = 0; i < slides.length; i++) {
