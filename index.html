@@ -408,11 +408,11 @@
         
         <!-- The dots/circles -->
         <div style="text-align:center">
-          <span class="dot" onclick="resources_currentSlide(1)"></span> 
-          <span class="dot" onclick="resources_currentSlide(2)"></span> 
-          <span class="dot" onclick="resources_currentSlide(3)"></span> 
-          <span class="dot" onclick="resources_currentSlide(4)"></span>
-          <span class="dot" onclick="resources_currentSlide(5)"></span>
+          <span class="dot-resources" onclick="resources_currentSlide(1)"></span> 
+          <span class="dot-resources" onclick="resources_currentSlide(2)"></span> 
+          <span class="dot-resources" onclick="resources_currentSlide(3)"></span> 
+          <span class="dot-resources" onclick="resources_currentSlide(4)"></span>
+          <span class="dot-resources" onclick="resources_currentSlide(5)"></span>
         </div>
         </section>
 
@@ -431,7 +431,7 @@
         function resources_showSlides(n) {
           let i;
           let slides = document.getElementsByClassName("resourcesSlides");
-          let dots = document.getElementsByClassName("dot");
+          let dots = document.getElementsByClassName("dot-resources");
           if (n > slides.length) {resources_slideIndex = 1}    
           if (n < 1) {resources_slideIndex = slides.length}
           for (i = 0; i < slides.length; i++) {
