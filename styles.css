@@ -93,6 +93,13 @@ main {
     text-align: center; /* Center align the content */
 }
 
+hr {
+  height:5px;
+  width:10%;
+  border-width:0;
+  background-color:#00A4BD;
+}
+
 .hero {
     margin: auto;
     max-width: 1000px;
